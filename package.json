@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  },
+
+  "scripts": {
+    "dist": "npx tsc",
+    "start": "npm run dist && node dist/index.js"
+  },
+  "type": "commonjs"
+}
